@@ -1,39 +1,19 @@
-// Write a program to display the day of the week based on a number (1–7) using switch-case.
+//Write a program to input an integer and check whether it is positive, negative or zero using nested if–else.
 //Name: Harsh
 //SAP ID: 590028742
 //Course-BCA B6
-
 #include <stdio.h>
-int main()
+int main() 
 {
-    printf("Name)
-    int day;
-    scanf("%d", &day);
-    switch (day)
-    {
-    case 1:
-        printf("Monday\n");
-        break;
-    case 2:
-        printf("Tuesday\n");
-        break;
-    case 3:
-        printf("Wednesday\n");
-        break;
-    case 4:
-        printf("Thursday\n");
-        break;
-    case 5:
-        printf("Friday\n");
-        break;
-    case 6:
-        printf("Saturday\n");
-        break;
-    case 7:
-        printf("Sunday\n");
-        break;
-    default:
-        printf("Invalid day number\n");
+    int n;
+    scanf("%d", &n);
+    if(n >= 0) {
+        if(n == 0)
+            printf("Zero\n");
+        else
+            printf("Positive\n");
+    } else {
+        printf("Negative\n");
     }
     return 0;
 }

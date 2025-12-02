@@ -1,5 +1,8 @@
-//Q70: Rotate an array to the right by k positions.
+//Name-Harsh
+//SapID-590028742
+//Course-Harsh
 
+//Q70: Rotate an array to the right by k positions.
 /*
 Sample Test Cases:
 Input 1:
